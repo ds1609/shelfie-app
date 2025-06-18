@@ -21,12 +21,20 @@ const Home = () => {
       <Spacer />
 
       <View>
-        <Link href={"/about"} style={[styles.linkStyle]}>
+        {/* <Link href={"/about"} style={[styles.linkStyle]}>
           <ThemedText>About</ThemedText>
         </Link>
         <Spacer height={10} />
         <Link href={"/contact"} style={styles.linkStyle}>
           <ThemedText>Contact</ThemedText>
+        </Link> */}
+
+        <Link href={"/login"} style={[styles.linkStyle]}>
+          <ThemedText>Login</ThemedText>
+        </Link>
+        <Spacer height={10} />
+        <Link href={"/RegisterScreen"} style={[styles.linkStyle]}>
+          <ThemedText>Register</ThemedText>
         </Link>
       </View>
     </ThemedView>
