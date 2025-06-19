@@ -33,9 +33,11 @@ const Home = () => {
           <ThemedText>Login</ThemedText>
         </Link>
         <Spacer height={10} />
-        <Link href={"/RegisterScreen"} style={[styles.linkStyle]}>
+        <Link href={"/register"} style={[styles.linkStyle]}>
           <ThemedText>Register</ThemedText>
         </Link>
+
+        
       </View>
     </ThemedView>
   )

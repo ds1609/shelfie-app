@@ -1,1 +1,4 @@
 (auth) => it is syntax of route group, which makes routing easy. no need to write route name like "(auth)/login". we can write "/login".
+
+Install expo vector icons
+> npm install @expo/vector-icons

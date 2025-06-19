@@ -37,6 +37,11 @@ const Login = () => {
             <ThemedText>Register</ThemedText>
         </Link>
 
+        <Spacer height={10} />
+        <Link href={"/profile"} style={[styles.linkStyle]}>
+          <ThemedText>Profile</ThemedText>
+        </Link>
+
     </ThemedView>
   )
 }
