@@ -7,9 +7,9 @@ import Spacer from '../../components/Spacer';
 
 const Books = () => {
   return (
-    <ThemedView style={styles.container}>
+    <ThemedView style={styles.container} safe={true}>
+      {/* <Spacer /> */}
       <ThemedText style={styles.heading} title={true}>Your Reading List</ThemedText>
-      <Spacer />
     </ThemedView>
   )
 }
@@ -19,8 +19,8 @@ export default Books;
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    alignItems:"center",
-    justifyContent:"center"
+    alignItems:"stretch",
+    // justifyContent:"center"
   }, 
   heading: {
     fontWeight: "bold",
