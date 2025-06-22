@@ -2,6 +2,7 @@ import { StyleSheet, View, Text, useColorScheme } from 'react-native';
 import { Link, Slot, Stack } from 'expo-router';
 import { Colors } from '../constants/Colors';
 import { StatusBar } from 'expo-status-bar';
+import { UserProvider } from '../contexts/UserContext';
 
 const RootLayout = () => {
   const colorScheme = useColorScheme();
@@ -9,7 +10,7 @@ const RootLayout = () => {
   const theme = Colors[colorScheme] ?? Colors.light;
 
   return (
-    <>
+    <UserProvider>
     {/* <Slot />    // doesn't support navigation behaviour */}
     {/* <Stack /> */}
 
@@ -26,7 +27,7 @@ const RootLayout = () => {
       <Stack.Screen name='contact' options={{ title: "Contact" }} /> */}
     </Stack>
 
-    </>
+    </UserProvider>
   )
 }
 
