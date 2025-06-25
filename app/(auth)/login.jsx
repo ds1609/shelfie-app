@@ -13,7 +13,6 @@ import ThemedTextInput from '../../components/ThemedTextInput';
 
 import { Colors } from '../../constants/Colors';
 
-
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

@@ -39,7 +39,7 @@ export function UserProvider({ children }){
             const response = await account.get();
             setUser(response);
         } catch (error) {
-            console.log("getInitialUserValue Error",error);
+            // console.log("getInitialUserValue Error",error);
             setUser(null);
         } finally {
             setAuthChecked(true);
