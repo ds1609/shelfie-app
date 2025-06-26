@@ -8,13 +8,15 @@ import ThemedCard from "../../components/ThemedCard";
 import Spacer from '../../components/Spacer';
 
 import { Colors } from "../../constants/Colors";
+import { useRouter } from "expo-router";
 
 const Books = () => {
   const { books } = useBooks();
+  const router = useRouter();
 
   const renderItem = ({item}) => {
     return(
-      <Pressable>
+      <Pressable onPress={() => router.push(`/books/${item.$id}`)}>
         <ThemedCard style={styles.card}>
           <ThemedText style={styles.title}>{item.title}</ThemedText>
           <ThemedText>Written By: {item.author}</ThemedText>
