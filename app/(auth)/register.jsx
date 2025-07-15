@@ -62,9 +62,9 @@ const Register = () => {
             <Spacer />
             {error && <Text style={styles.error}>{error}</Text>}
 
-            <Spacer height={100} />
+            <Spacer height={10} />
 
-            <Link href={"/login"} style={{textAlign:"center"}}>
+            <Link href={"/login"} style={{textAlign:"center", fontSize:16, letterSpacing:0.8}}>
                 <ThemedText>Login</ThemedText>
             </Link>
 

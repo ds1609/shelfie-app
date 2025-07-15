@@ -62,10 +62,10 @@ const Login = () => {
         <Spacer />
         {error && <Text style={styles.error}>{error}</Text>}
 
-        <Spacer height={100} />
+        <Spacer height={10} />
 
-        <Link href={"/register"} style={{textAlign:"center"}}>
-          <ThemedText>Register</ThemedText>
+        <Link href={"/register"} style={{textAlign:"center", fontSize:16, letterSpacing:0.8}}>
+          <ThemedText>New User? Register</ThemedText>
         </Link>
       </ThemedView>
     </TouchableWithoutFeedback>
