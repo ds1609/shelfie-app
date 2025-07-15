@@ -14,16 +14,16 @@ It was built as a practice project to strengthen my React Native skills, includi
 The home screen has 3 bottom tabs:
 
 1. Profile Tab
-    - Shows the logged-in user’s email address.
-    - Includes a logout button to end the session.
+   - Shows the logged-in user’s email address.
+   - Includes a logout button to end the session.
 
 2. Books Tab
-    - Displays a list of books with: Book Title, Author Name.
-    - Tap a book to view details.
-    - Delete the book.
+   - Displays a list of books with: Book Title, Author Name.
+   - Tap a book to view details.
+   - Delete the book.
 
 3. Create Tab
-    - Add a new book to the collection by entering: Title, Author and Description.
+   - Add a new book to the collection by entering: Title, Author and Description.
 
 
 ## 📷 Screenshots
