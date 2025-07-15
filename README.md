@@ -3,7 +3,7 @@ A React Native mobile app to manage your personal bookshelf — register, log in
 
 It was built as a practice project to strengthen my React Native skills, including navigation, state management, and UI development.
 
-## Features at a Glance
+## ✨ Features at a Glance
 ### Onboarding
 - Launch Screen: Welcome screen when the app starts.
 - Registration: Create a new account with email & password.
