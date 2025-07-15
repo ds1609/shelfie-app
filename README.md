@@ -26,6 +26,22 @@ The home screen has 3 bottom tabs:
    - Add a new book to the collection by entering: Title, Author and Description.
 
 
+
+## Backend
+Shelfie uses Appwrite as its backend for authentication and database.
+
+### Authentication
+- Users can register and log in securely with email & password.
+- Authentication is handled with Appwrite’s Account API.
+- Sessions are managed using Appwrite sessions.
+
+### Database
+- Books are stored as documents in an Appwrite Collection.
+- Books displayed on the app belong only to the logged-in user.
+- Deleting a book removes it from the Appwrite database.
+
+
+
 ## 📷 Screenshots
 <p align="center">
   <img src="screenshots/launch.jpg" alt="Launch" width="200"/>
